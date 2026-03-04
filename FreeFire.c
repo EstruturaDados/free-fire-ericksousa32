@@ -90,7 +90,7 @@ void menuPrincipal() {
                 nomeBusca[strcspn(nomeBusca, "\n")] = '\0';
 
                 if (!ordenadoPorNome) {
-                    printf("⚠️ Primeiro ordene por NOME!\n");
+                    printf("Primeiro ordene por NOME!\n");
                 } else {
                     int comps = 0;
                     int idx = buscaBinaria(nomeBusca, &comps);
